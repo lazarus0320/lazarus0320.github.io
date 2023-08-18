@@ -82887,7 +82887,7 @@ f=b0.ax
 b0=b0.ay
 e=n.d.ax
 A.cI().$1("id: "+f.gl(f)+", pw: "+b0.gl(b0)+", personnel: "+e.k(0))
-d=A.fg("http://localhost:5000/reservation",0,null)
+d=A.fg("http://192.168.1.131:5000/reservation",0,null)
 f=f.gl(f)
 b0=b0.gl(b0)
 e=e.gl(e)
@@ -82972,7 +82972,7 @@ re(){var s=0,r=A.a_(t.H),q=1,p,o=this,n,m,l,k,j,i,h
 var $async$re=A.a0(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 s=6
-return A.a3(A.aNm(A.fg("http://localhost:5000/reservation_table",0,null)),$async$re)
+return A.a3(A.aNm(A.fg("http://192.168.1.131:5000/reservation_table",0,null)),$async$re)
 case 6:n=b
 if(n.b===200){k=n
 j=t.a
@@ -83001,7 +83001,7 @@ var $async$vY=A.a0(function(b,c){if(b===1){p=c
 s=q}while(true)switch(s){case 0:q=3
 l=""+a
 s=6
-return A.a3(A.aAQ(A.fg("http://localhost:5000/reservation_cancel/"+l,0,null)),$async$vY)
+return A.a3(A.aAQ(A.fg("http://192.168.1.131:5000/reservation_cancel/"+l,0,null)),$async$vY)
 case 6:n=c
 if(n.b===200){A.cI().$1("Reservation canceled for ID: "+l)
 o.re()}else A.cI().$1("HTTP Error: "+n.b)
